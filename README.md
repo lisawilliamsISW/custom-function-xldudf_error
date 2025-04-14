@@ -5,4 +5,4 @@ Steps to reproduce:
 - Once the manifest is loaded, you should see a "Get started with your sample add-in" notification.
 - Click any cell and use the custom `ADD` function in the `CONTOSO` namespace by entering `=CONTOSO.ADD(1, 2)` (or any other combination of integers)
 - Make sure this saves, close this window and clear your cache.
-- Reopen this same workbook in Excel onilne and note that the custom function begins with `_xldudf_`
+- Reopen this same workbook in Excel online and note that the custom function begins with `_xldudf_`
